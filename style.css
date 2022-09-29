@@ -81,8 +81,9 @@ a {
 .title-card {
     display: flex;
     justify-content: center;
-    padding: 96px 0;
+    padding: 96px 24px;
     gap: 60px;
+    flex-shrink: 0;
 }
 
 .main-title {
