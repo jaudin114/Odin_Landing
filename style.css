@@ -1,0 +1,256 @@
+* {
+    font-family: "roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.header,
+.title-card,
+.footer {
+    background-color: #1F2937;
+    /*padding: 0 128px;*/
+}
+
+.info,
+.testimonial,
+.blueSign {
+    /*padding: 0 48px;*/
+}
+
+
+
+/* IMAGES */
+
+
+.waves {
+    width: 450px;
+    height: 212px;
+}
+
+.brick {
+    width: 150px;
+    height: auto;
+}
+
+
+
+/* HEADER */
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    gap: 48px;
+}
+
+
+.header div {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 16px;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+
+/* TITLE CARD */
+
+
+.title-card {
+    display: flex;
+    justify-content: center;
+    padding: 96px 0;
+    gap: 60px;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.textblock p {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0;
+    margin: 0;
+}
+
+.textblock {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+}
+
+.textblock .signUp {
+    height: auto;
+    width: 96px;
+    background-color: #3882F6;
+    color: #E5E7EB;
+    font-weight: bold;
+    padding: 6px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 8px;
+}
+
+
+
+/* INFO BOX */
+
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 108px; 
+}
+
+.boxes {
+    display: flex;
+    gap: 50px;
+}
+
+.boxes div {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 150px;
+}
+
+div .subtext {
+    text-align: center;
+    font-size: 18px;
+}
+
+.random {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+    padding: 48px;
+}
+
+
+
+/* TESTIMONIAL/INSPIRING QUOTE */
+
+
+.testimonial {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.tcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 700px;
+    padding: 96px;
+    gap: 12px;
+}
+
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.thor {
+    font-weight: bold;
+    font-family: "roboto", sans-serif;
+}
+
+
+
+/* CALL TO ACTION */
+
+
+.blueSign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 84px;
+}
+
+.action p {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 14px;
+}
+
+.action div {
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.blueBox {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-between;
+    padding: 36px 128px;
+    gap: 128px;
+    border-radius: 6px;
+}
+
+.whitebSign {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    flex-wrap: nowrap;
+}
+
+.whitebSign button {
+    padding: 4px 24px;
+    background-color: transparent;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+
+
+/* FOOTER */
+
+
+.footer {
+    color: #E5E7EB;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+}
